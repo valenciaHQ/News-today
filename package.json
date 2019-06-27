@@ -1,0 +1,41 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "For quick hacking with react / typescript",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/react-ts",
+  "main": "src/index.jsx",
+  "dependencies": {
+    "@babel/runtime": "7.4.5",
+    "@types/react": "16.8.22",
+    "@types/react-dom": "16.8.4",
+    "axios": "0.19.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-loader-spinner": "2.3.0",
+    "react-modal": "3.8.1",
+    "react-redux": "7.1.0",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0",
+    "styled-components": "4.3.2",
+    "styled-icons": "8.1.0",
+    "styled-react-modal": "1.2.3",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28",
+    "@types/react": "16.0.38",
+    "@types/react-dom": "16.0.4",
+    "@types/react-dom/node-stream": "latest",
+    "@types/react-dom/server": "latest",
+    "@types/react-dom/test-utils": "latest",
+    "@types/react-redux": "6.0.9"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
